@@ -5,7 +5,7 @@
 * {
     box-sizing: border-box;
     outline: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif
+    font-family: 'Times New Roman', Times, serif
 }
 
 body {
@@ -22,6 +22,10 @@ body {
     background-color: rgb(168, 132, 103);
     padding: 20px;
     border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
 }
 
 form input,
@@ -61,4 +65,13 @@ form button:hover {
 
 form button:active {
     background-color: rgb(194, 171, 152);
+}
+
+.paragrafo-resultado {
+    background-color: rgb(32, 214, 32);
+    padding: 10px 20px;
+}
+.bad {
+    background-color: red;
+    padding: 10px 20px;
 }
