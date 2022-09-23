@@ -4,9 +4,21 @@ const pessoas = {
     idade: 32
 };
 
-for (let chave in pessoas) {
-    console.log(chave, pessoas[chave])
+const nome = ['Higor', 'Asafe', 'Inglidy'];
+
+
+for (let valor of nome) {
+    console.log(valor)
 }
+
+nome.forEach(function (valor, indice,) {
+    console.log(valor, indice)
+})
+
+
+//for (let chave in pessoas) {
+//    console.log(chave, pessoas[chave])
+//}
 
 
 //console.log(pessoas.nome);
