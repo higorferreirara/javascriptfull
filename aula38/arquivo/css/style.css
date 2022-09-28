@@ -1,0 +1,64 @@
+:root {
+    --cor01: rgb(172, 100, 34);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: var(--cor01);
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: rgb(168, 132, 103);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 1px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid rgb(70, 26, 9);
+}
+ 
+form button {
+    border: none;
+    background-color: rgb(180, 91, 22);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color:  rgb(70, 26, 9);
+}
+
+form button:active {
+    background-color: rgb(194, 171, 152);
+}
