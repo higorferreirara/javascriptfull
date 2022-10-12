@@ -67,3 +67,6 @@ form button:active {
     font-size: 3em;
     padding: 0;
 }
+.pausado {
+    color: red;
+}
