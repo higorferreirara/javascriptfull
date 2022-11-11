@@ -5,8 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        label {
+            cursor: pointer;
+            display: block;
+        }
+    </style>
 </head>
 <body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+       <p>O meu formulário</p>
+       <p>
+        <label for="nome">Nome :</label>
+        <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+       </p>
+
+       <p>
+        <label for="dev1">Sou um dev1</label>
+        <input type="checkbox" name="dev1" id="dev1">
+
+        <label for="dev2">Sou um dev2</label>
+        <input type="checkbox" name="dev2" id="dev2">
+
+        <label for="dev3">Sou um dev3</label>
+        <input type="checkbox" name="dev3" id="dev3">
+       </p>
+
+       <p>
+        Genero :
+        <label for="femenino">Feminino</label>
+        <input type="radio" name="genero" id="feminino">
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino">
+
+        <label for="alienigina">Alienigina</label>
+        <input type="radio" name="genero" id="alienigina">
+       </p>
+
+       <p>
+        <label for="date">Data :</label>
+        <input type="date" name="date" id="date">
+       </p>
+
+       <p>
+        <label for="datetime">Data :</label>
+        <input type="datetime-local" name="datetime" id="datetime">
+       </p>
+
+       <p>
+        <label for="time">Time :</label>
+        <input type="time" name="time" id="time">
+       </p>
+
+       <p>
+        <label for="cor">Cor :</label>
+        <input type="color" name="cor" id="cor">
+       </p>
+
+       <p>
+        <label for="email">Seu e-mail :</label>
+        <input type="email" name="email" id="email" placeholder="ex.: email@email.com">
+       </p>
+
+       <p>
+        <label for="file">Sua foto :</label>
+        <input type="file" name="file" id="file" accept=".png">
+       </p>
+
+       <p>
+        <label for="number">Número :</label>
+        <input type="number" name="number" id="number" min="10" max="50" step="5">
+       </p>
+
+       <p>
+        <label for="password">Sua Senha :</label>
+        <input type="password" name="password" id="dpassoword" placeholder="Digite sua senha">
+       </p>
+
+       <p>
+        <label for="date">Data :</label>
+        <input type="date" name="date" id="date">
+       </p>
+
+       <p>
+        <label for="range">Range :</label>
+        <input type="range" name="range" id="range" min="0" max="10" step="2">
+       </p>
+
+       <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+       </p>
+    </form>
     
 </body>
 </html>
