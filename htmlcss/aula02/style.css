@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 5rem;
+    background: grey;
+    text-align: center;
+}
+
+a {
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 5rem;
+    
+}
+
+.pai {
+    width: 100vw;
+    height: 100vh;
+    background: yellow;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.cor1 {
+    background: turquoise;
+}
+
+.cor2 {
+    background: violet;
+}
