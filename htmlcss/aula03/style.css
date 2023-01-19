@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid .col {
+    height: 300px;
+    float: left;
+    padding: 15px;
+}
+
