@@ -1,6 +1,14 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+.grid {
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+    padding-top: 58px;
 }
 
 .grid:after {
@@ -15,3 +23,52 @@
     padding: 15px;
 }
 
+.grid .col-contente {
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    background: black;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: block;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover {
+    background: #333;
+
+}
+
+@media all and (max-width: 568px) {
+    .grid .col {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 568px) {
+    .grid .col {
+        width: 100%;
+    }
+}
