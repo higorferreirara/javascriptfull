@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: yellow;
+    height: 640px;
+
+}
+
+.flex-item {
+    width: 33.33%;
+    color: white;
+    background: red;
+}
+
+.flex-item:nth-child(3) {
+    font-size: 40px;
+}
